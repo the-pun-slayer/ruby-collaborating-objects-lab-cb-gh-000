@@ -7,5 +7,9 @@ class Artist
     @@all<<self
   end
   
-end
+  def add_song(song)
+    song.name= self
+  end
+  
+  
     
